@@ -1,0 +1,18 @@
+//
+// Created by admin on 2022/7/2.
+//
+
+#ifndef COURSESYSTEM_META_H_IN
+#define COURSESYSTEM_META_H_IN
+
+#define SOFTWARE_VERSION_MAJOR @CourseSystem_VERSION_MAJOR@
+#define SOFTWARE_VERSION_MINOR @CourseSystem_VERSION_MINOR@
+
+#define SOCKET_CORE_VERSION_MAJOR @SocketCore_Version_Major@
+#define SOCKET_CORE_VERSION_MINOR @SocketCore_Version_Minor@
+
+#define VERSION "v@CourseSystem_VERSION_MAJOR@.@CourseSystem_VERSION_MINOR@(Socket Core v@SocketCore_Version_Major@.@SocketCore_Version_Minor@)"
+#define GLOBAL_SOFTWARE_NAME "CourseSystem"
+#define GLOBAL_SOFTWARE_VERSION "@CourseSystem_VERSION_MAJOR@.@CourseSystem_VERSION_MINOR@"
+
+#endif //COURSESYSTEM_META_H_IN
